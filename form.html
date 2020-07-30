@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+       <div class="form">
+           <h1 class="title">Форма</h1>
+           
+           <form action="/" method="post">
+            
+             
+              <div class="form-group">
+                 <label for="input-name">Ваше имя</label>
+                  <input class="form-input" type="text" name="name" id="input-name">
+              </div>
+               
+               <div class="form-group">
+                   <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+               </div>
+               
+               <div class="form-group">
+                   <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+               </div>
+               
+               <div class="form-group">
+                  <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+              </div>
+              
+              <div class="form-group">
+                  <textarea class="form-textarea"name="text" placeholder="О вас"></textarea>
+              </div>
+              
+              <div class="form-group">
+                  <select name="city" multiple>
+                      <option>Тараз</option>
+                      <option>Астана</option>
+                  </select>
+              </div>
+              
+              <div class="form-group">
+                 <label for="male">Мужской</label>
+                  <input type="radio" name="choose_male" id="male">
+                  
+                  <label for="female">Женский</label>
+                  <input type="radio" name="choose_male" id="female">
+              </div>
+              
+              <div class="form-group">
+                 <label for="photo">Фото</label>
+                 <input type="file" name="photo" id="photo">
+              </div>
+              
+              <div class="form-group">
+                  <input type="checkbox" name="rules_agree" id="rules_agree">
+                  <label for="rules_agree">Прочитал условия и согласен с ними</label>
+              </div>
+              
+              <button type="submit">Отправить</button>
+              <button type="reset">Очистить</button>
+              <button type="button">Кнопка</button>
+              
+           </form>
+       </div>
+    
+</body>
+</html>
